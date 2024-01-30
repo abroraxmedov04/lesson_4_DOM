@@ -8,7 +8,7 @@ elForm.addEventListener("submit", function (eve) {
   if (inputValue % 3 == 0 && inputValue % 5 == 0) {
     elResult.textContent = "FizzBuzz";
   } else if (inputValue % 3 == 0) {
-    elOutput.textContent = "Fizz";
+    elResult.textContent = "Fizz";
   } else if (inputValue % 5 == 0) {
     elResult.textContent = "Buzz";
   } else {
